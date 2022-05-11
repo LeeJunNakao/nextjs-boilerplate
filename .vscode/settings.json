@@ -1,5 +1,7 @@
 {
     "editor.formatOnSave": false,
+    "editor.tabSize" : 2,
+    "editor.identStyle": "space",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true 
     }
