@@ -11,7 +11,9 @@
     "postinstall": "husky install",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "plop": "plop",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "lint-staged": {
     "src/**/*": [
@@ -57,6 +59,7 @@
     "jest-environment-jsdom": "^28.1.0",
     "jest-styled-components": "^7.0.8",
     "lint-staged": "^12.4.1",
+    "plop": "^3.1.0",
     "prettier": "2.6.2",
     "sb": "^6.4.22",
     "typescript": "^4.6.4"
